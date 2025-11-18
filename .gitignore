@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# ChromaDB (vector store data - contains your knowledge base)
+chroma_db/
+*.sqlite3
+*.bin
+
+# Logs
+logs/
+*.log
+app_run.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================
+# PRIVATE IMPLEMENTATION FILES
+# Keep your actual code private
+# ============================================
+
+# Core implementation
+core/config.py
+core/helper_functions.py
+core/logger.py
+core/settings.py
+
+# Models implementation
+models/chat_model.py
+models/embeddings.py
+
+# RAG pipeline implementation
+rag/rag_pipeline.py
+rag/response_generator_memory.py
+
+# Vector store implementation
+vector_store/vs_initializer.py
+vector_store/data_ingester.py
+
+# Main application
+main.py
+ingest_cli.py
+inspect_chunks.py
+
+# Private documentation (keep your detailed guides private)
+DEVELOPER_GUIDE.md
+TROUBLESHOOTING_GUIDE.md
+INSPECT_CHUNKS_GUIDE.md
+clean_rag_project.md
+originalcode.md
+comparison-of-chatbots.md
+vue_docker_deployment_package.md
+powerpoint.md
+howitworks.md
+
+# Data files (optional - you can include sample_data.txt if you want)
+# data/sample_data.txt
+# data/sample_urls.txt
+
+# Frontend (optional - you can include if you want to show UI code)
+# frontend/index.html
+
